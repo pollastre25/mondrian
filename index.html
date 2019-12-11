@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .container{
+            border: 5px solid black;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(20, 1fr);
+        }
+        .m{
+            padding: 2em;
+            background: pink;
+            border: 5px solid black;
+        }
+        .m1{
+            background: red;
+            grid-column: span 3;
+            grid-row: span 3;
+        }
+        .m2{
+            background: white;
+            grid-column: span 3;
+            grid-row: span 6;
+        }
+        .m3{
+            background: yellow;
+            grid-column: span 3;
+            grid-row: span 3;
+        }
+        .m4{
+            background: white;
+            grid-column: span 3;
+            grid-row: span 3;
+        }
+        .m5{
+            background: white;
+            grid-column: span 3;
+            grid-row: span 7;
+        }
+        .m6{
+            background: white;
+            grid-column: span 6;
+            grid-row: span 3;
+        }
+        .m7{
+            background: white;
+            grid-column: span 6;
+            grid-row: span 3;
+        }
+        .m8{
+            background: white;
+            grid-column: span 1;
+            grid-row: span 8;
+        }
+        .m9{
+            background: white;
+            grid-column: span 2;
+            grid-row: span 6;
+        }
+        .m10{
+            background: blue;
+            grid-column: span 6;
+            grid-row: span 5;
+        }
+        .m11{
+            background: yellow;
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+        .m12{
+            background: white;
+            grid-column: span 3;
+            grid-row: span 4;
+        }
+        .m13{
+            background: white;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .m14{
+            background: red;
+            grid-column: span 4;
+            grid-row: span 7;
+        }
+        .m15{
+            background: white;
+            grid-column: span 5;
+            grid-row: span 5;
+        }
+        .m16{
+            background: white;
+            grid-column: span 2;
+            grid-row: span 4;
+        }
+        .m17{
+            background: white;
+            grid-column: span 1;
+            grid-row: span 4;
+        }
+        .m18{
+            background: white;
+            grid-column: span 4;
+            grid-row: span 1;
+        }
+        .m19{
+            background: blue;
+        }
+        @media (max-device-width:480px){
+            .container{
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(20, 1fr);
+            }
+            .m1{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m2{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m3{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m4{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m5{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m6{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m7{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m8{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m9{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m10{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m11{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m12{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m13{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m14{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m15{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m16{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m17{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m18{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+            .m19{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="m m1">1</div>
+        <div class="m m2">2</div>
+        <div class="m m3">3</div>
+        <div class="m m4">4</div>
+        <div class="m m5">5</div>
+        <div class="m m6">6</div>
+        <div class="m m7">7</div>
+        <div class="m m8">8</div>
+        <div class="m m9">9</div>
+        <div class="m m10">10</div>
+        <div class="m m11">11</div>
+        <div class="m m12">12</div>
+        <div class="m m13">13</div>
+        <div class="m m14">14</div>
+        <div class="m m15">15</div>
+        <div class="m m16">16</div>
+        <div class="m m17">17</div>
+        <div class="m m18">18</div>
+        <div class="m m19">19</div>
+    </div>
+</body>
+</html>
